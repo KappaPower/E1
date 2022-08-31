@@ -1,0 +1,74 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #999999;
+    background: #000000;
+    padding: 0 4rem;
+}
+
+.navigation{
+    align-items: center;
+    display: flex;
+    list-style-type: none;
+}
+
+.navigation a{
+    align-self: center;
+    color: #999999;
+    text-decoration: none;
+}
+
+.navigation li{
+    padding: 1rem;
+}
+
+.navigation li:hover{
+    background-color: grey;
+}
+
+.content{
+    max-width: 70vw;
+    margin: 0 auto;
+}
+
+.card{
+    padding: 2rem 0;
+}
+
+.card img{
+    float: left;
+    padding: 1rem 1rem 1rem 0;
+}
+
+.card img:nth-of-type(2n) {
+    float: right;
+    padding: 1rem 1rem 1rem 0;
+}
+
+.card p{
+    padding: 0.25rem 0 0.5rem;
+}
+
+.contacts{
+    text-align: center;
+    line-height: 1rem;
+    /*align-items: center;*/
+    /*display: flex;*/
+}
+
+.contacts a{
+    align-self: center;
+    color: black;
+    padding: 0 0.5rem;
+    text-decoration: none;
+}
+
+.contacts li{
+    padding: 0.25rem;
+    list-style-type: none;
+}
+
+.contacts a:hover{
+    background-color: #8B7979;
+}
